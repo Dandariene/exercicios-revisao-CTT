@@ -6,33 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Aula 03</title>
+    <style>
+        h1{
+            background-color: royalblue;
+        }
+        button{
+            background-color: salmon;
+            color: red;
+            font-size: 18px;
+        }
+        body{
+            background-color: silver;
+        }
+    </style>
 </head>
 
-<body leftmargin="500px">
-    <h1>Veja quantos doguinhos você já viu hoje</h1>
+<body leftmargin="250px">
+    <h1>Veja quantas imagens de doguinhos você já viu hoje </h1>
     <h1 id="quantidade">Quantidade</h1>
     <button onclick="mudarImagem()">Clique para vê a imagem</button>
-    <img src="" id="foto" width="400px" height="400px">
+    <img src="" id="foto" width="500px" height="500px">
 
     <script>
         let imagens = []
 
-        function mudarImagem(){
+        function mudarImagem() {
 
-        let foto = document.querySelector("#foto") 
-        
-        let quantidade = document.querySelector("#quantidade")
+            let foto = document.querySelector("#foto")
+
+            let quantidade = document.querySelector("#quantidade")
 
             fetch('https://random.dog/woof.json')
-                .then(function(resposta){
+                .then(function (resposta) {
                     resposta.json()
-                    .then(function(dados){
-                        foto.src = dados.url
-                        imagens.push(dados.url)
-                        quantidade = quantidade.innerText = imagens.length
-
-
-                    })
+                        .then(function (dados) {
+                            foto.src = dados.url
+                            imagens.push(dados.url)
+                            quantidade = quantidade.innerText = imagens.length
+                        })
                 })
         }
 
