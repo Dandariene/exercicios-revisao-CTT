@@ -1,0 +1,19 @@
+{
+  "noticias": [
+    {
+      "titulo": "Positivo Tecnologia reverte prejuízo e lucra R$ 20,8 milhões em 2019",
+      "chamada": "O resultado aponta a liderança da Positivo Tecnologia no mercado de notebooks de entrada no Brasil. A Accept, fabricante de servidores que faz parte da Positivo Tecnologia desde 2018, também favoreceu os resultados. A empresa, que possui escritório em São Paulo (SP) e fábrica em Ilhéus (BA), faturou R$ 221,3 milhões. O valor é 36,5% ",
+      "link": "https://www.segs.com.br/info-ti/220744-positivo-tecnologia-reverte-prejuizo-e-lucra-r-20-8-milhoes-em-2019"
+    },
+    {
+      "titulo": "Profissões ligadas a tecnologia da informação e internet estão no topo do mercado",
+      "chamada": "O mercado de tecnologia está em constante desenvolvimento. De acordo com a IDC Brasil, nos próximos anos, os investimentos do país, referentes ao setor de tecnologia, devem chegar a US$48 bilhões. Novas áreas profissionais terão destaque no cenário nacional, a inteligência artificial estará no ápice, a tecnologia 5G será testada no ...",
+      "link": "https://www.folhavitoria.com.br/economia/noticia/03/2020/profissoes-ligadas-a-tecnologia-da-informacao-e-internet-estao-no-topo-do-mercado"
+    },
+    {
+      "titulo": "Artigo: Um Nobel para o Brasil",
+      "chamada": "E mais importante de tudo, ao Brasil o que é do Brasil. A verdade: o Brasil é o líder mundial nas tecnologias de produção da agricultura e pecuária tropical que hoje salva os países situados nas regiões equatoriais e tropicais do planeta (quase sempre as mais pobres). Por quê? Simples. Por ter investido na década de 1970 em ciência ...",
+      "link": "https://www.correiobraziliense.com.br/app/noticia/opiniao/2020/03/13/internas_opiniao,833952/artigo-um-nobel-para-o-brasil.shtml"
+    }
+  ]
+}
